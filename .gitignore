@@ -1,0 +1,26 @@
+# Keil / MDK-Arm output
+*.axf
+*.bin
+*.hex
+*.lid
+*.map
+*.mem
+*.o
+Objects/
+
+# Opciones de proyecto Keil (se regeneran, no es necesario versionarlas)
+*.uvoptx
+
+# Cachés y layouts de Keil
+*.uvguix
+*.aps
+*.db
+*.log
+
+# Archivos temporales de editores
+*~
+*.swp
+Thumbs.db
+
+# Carpeta de builds externas (si las hubiera)
+/build/
